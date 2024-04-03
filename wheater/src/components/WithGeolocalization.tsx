@@ -1,6 +1,7 @@
-import { getLocation } from "@/app/components/WithGeolocalization";
+import { getLocation } from "@/lib/geolocation";
 import React, { useEffect, useState } from "react";
-function withGeolocalization(
+
+function WithGeolocalization(
   OriginalComponent: React.ComponentType<ChildProps>
 ) {
   function NewComponent() {
@@ -30,4 +31,4 @@ function withGeolocalization(
   }
   return NewComponent;
 }
-export default withGeolocalization;
+export default WithGeolocalization;
