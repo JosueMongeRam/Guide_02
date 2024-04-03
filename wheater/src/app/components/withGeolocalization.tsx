@@ -1,4 +1,4 @@
-import { getLocation } from "@/lib/geolocation";
+import { getLocation } from "@/app/components/WithGeolocalization";
 import React, { useEffect, useState } from "react";
 function withGeolocalization(
   OriginalComponent: React.ComponentType<ChildProps>

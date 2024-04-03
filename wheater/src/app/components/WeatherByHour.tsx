@@ -1,4 +1,4 @@
-import { formatDate } from "@/lib/format";
+import { formatDate } from "@/app/libs/format";
 import React from "react";
 function WeatherByHour({ hour }: { hour: Hour }) {
   return (
